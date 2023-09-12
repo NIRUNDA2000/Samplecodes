@@ -1,0 +1,11 @@
+Install the same SmarterMail Build being used on the old hardware on the new server. (NOTE: Legacy Builds of SmarterMail can be found within your account on the SmarterTools website.)
+Set up SmarterMail in IIS on the new server, using the KB article "Set up SmarterMail as an IIS Site in IIS10" as a guide.
+Stop the SmarterMail Service (MailService.exe), and any IIS sites/application pools, on both servers.
+Copy the Settings folder from your old server to your new one. By default that path will be C:\Program Files (x86)\SmarterTools\SmarterMail\Service\Settings. 
+Copy the Domains folder from your old server to your new one. By default the path will be C:\SmarterMail\Domains.
+Start the SmarterMail Service on the new server, and any IIS sites/application pools as needed.
+Log in and re-activate the software on the new server.
+If you change the path to your domains, you would need to edit your domains.json file accordingly to reflect the new paths.
+If your IP address or other DNS info changes, update the corresponding setting in SmarterMail and restart the SmarterMail Service (or reboot the server) to make the change effective.
+
+https://portal.smartertools.com/kb/a2724/migrate-smartermail-to-a-different-server.aspx
