@@ -1,0 +1,2 @@
+robocopy E:\SmaterMailData\Domains \\46.4.144.179\d\SmarterMail\Domains\ /E /Z /ZB /R:5 /W:5 /TBD /NP /V /MT:16
+robocopy E:\SmaterMailData\Domains\eweblook.com \\46.4.144.179\d\SmarterMail\Domains\eweblook.com /E /Z /ZB /R:5 /W:5 /TBD /NP /V /MT:16
