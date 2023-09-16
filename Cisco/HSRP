@@ -5,4 +5,3 @@ Router (config-if)#standby 1 priority 100
 Router (config-if)#standby 1 preempt
 Router (config-if)#ex
 Router (config)#ex
-
