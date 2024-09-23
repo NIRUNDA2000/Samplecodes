@@ -1,0 +1,30 @@
+Open the Server Manager:
+  Click the Start button, then search for Server Manager, and open it.
+
+Add Roles and Features (if RD Licensing isn’t already installed):
+  In Server Manager, click Manage > Add Roles and Features.
+  Choose Role-based or feature-based installation.
+  On the Server Roles screen, select Remote Desktop Services, then click Next.
+  In the Role Services section, select Remote Desktop Licensing, then follow the prompts to complete the installation.
+
+Open RD Licensing Manager:
+  Press Win + R to open the Run dialog box.
+  Type licmgr.exe and press Enter.
+  This opens the RD Licensing Manager.
+
+Manage Licenses:
+  Once in the RD Licensing Manager, you can install and manage Remote Desktop licenses, activate the RD license server, and perform related tasks.
+
+>>> STEPS TO OPEN RD LICENSING MANAGER VIA SERVER MANAGER:
+
+Open Server Manager:
+  Click the Start button and search for Server Manager. Select and open it.
+
+Navigate to Remote Desktop Services:
+  In Server Manager, on the left-hand side, click on Remote Desktop Services.
+
+Open RD Licensing Manager:
+  In the Remote Desktop Services section, under Overview, look for the option RD Licensing.
+  Under Licensing, click RD Licensing Manager.
+
+This will open the RD Licensing Manager.
